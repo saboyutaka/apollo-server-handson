@@ -1,0 +1,12 @@
+version: '3'
+services:
+  node:
+    image: node:16-bullseye
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+      - node-module-volume:/home/node/node_modules
+    ports:
+      - 4000:4000
+volumes:
+  node-module-volume:

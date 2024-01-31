@@ -1,0 +1,12 @@
+{
+  "name": "Apollo Server dev",
+  "dockerComposeFile": ["../docker-compose.yml", "docker-compose.yml"],
+  "service": "node",
+  "workspaceFolder": "/workspace",
+  "runServices": ["node"],
+  "settings": {},
+  "extensions": [
+    "VisualStudioExptTeam.vscodeintellicode",
+    "esbenp.prettier-vscode"
+  ]
+}
